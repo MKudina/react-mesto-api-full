@@ -1,0 +1,7 @@
+.register {
+    margin: auto;
+    width: 358px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

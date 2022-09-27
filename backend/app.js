@@ -9,7 +9,6 @@ const errorHandle = require('./middlewares/errorHandle');
 const NotFoundError = require('./utils/NotFoundError');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
-const { PORT = 3001 } = process.env;
 const app = express();
 
 app.use(bodyParser.json());
@@ -42,4 +41,4 @@ app.use('*', () => {
 app.use(errors());
 app.use(errorHandle);
 
-app.listen(PORT);
+app.listen(process.env.PORT);

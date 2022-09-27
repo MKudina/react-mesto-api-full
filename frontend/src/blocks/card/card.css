@@ -1,0 +1,14 @@
+.card {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+@media screen and (max-width:879px) {
+    .card {
+        margin: 0 19px;
+    }    
+}

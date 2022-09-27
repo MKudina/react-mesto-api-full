@@ -1,0 +1,6 @@
+.card__delete-icon_position_top {
+    margin: 0 0 .5px 0;
+    width: 18px;
+    height: 4.42px;
+    background-image: url(../../../../images/delete-button-top.png);
+}

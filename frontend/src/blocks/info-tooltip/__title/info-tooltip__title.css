@@ -1,0 +1,10 @@
+.info-tooltip__title {
+    max-width: 358px;
+    margin: 0 0 60px 0;
+    font-style: normal;
+    font-weight: 900;
+    ont-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: black;
+}

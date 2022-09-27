@@ -1,0 +1,15 @@
+.profile__edit-avatar-button{
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border:none;
+    background-image: url(../../../images/edit-avatar.png);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    cursor: pointer;
+}
+

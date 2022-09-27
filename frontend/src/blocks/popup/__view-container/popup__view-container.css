@@ -1,0 +1,7 @@
+.popup__view-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: default;
+}
