@@ -1,6 +1,7 @@
 {
   "name": "express-mesto-gha",
   "version": "1.0.0",
+  "private": true,
   "description": "[![Tests](https://github.com/MKudina/express-mesto-gha/actions/workflows/tests-13-sprint.yml/badge.svg)](https://github.com/MKudina/express-mesto-gha/actions/workflows/tests-13-sprint.yml) [![Tests](https://github.com/MKudina/express-mesto-gha/actions/workflows/tests-14-sprint.yml/badge.svg)](https://github.com/MKudina/express-mesto-gha/actions/workflows/tests-14-sprint.yml)\r # Проект Mesto фронтенд + бэкенд",
   "main": "index.js",
   "scripts": {
