@@ -19,7 +19,7 @@ module.exports.createCards = (req, res, next) => {
         next(new BadRequestError('Некорректные данные'));
         return;
       }
-      next();
+      next(err);
     });
 };
 
